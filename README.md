@@ -1,26 +1,132 @@
-# prempareesh
-Hello there! I'm Prem Pareesh, frontend engineer by profession, a creative at heart.
+# 🚀 Cloud Portfolio — Prem Pareesh
 
-This the updated version of my personal website which is now in 3D. LFG!
+🌐 **Live Demo:** https://cloud-portfolio-pi.vercel.app
 
-Checkout the live version at [prempareesh.github.io](https://prempareesh.github.io/)
+---
 
-## Tech Stack
+## 🧠 About The Project
 
-- Next.js
-- React
-- React-three-fiber
-- DREI
-- GSAP
-- Zustand
-- Tailwind
+This is a **modern 3D interactive portfolio** built to showcase my journey, projects, and achievements in a visually immersive way.
 
-## Preview
-Some of the sample images from the app. Better to check it out live!
+Unlike traditional portfolios, this project focuses on:
 
-<img width="1242" alt="image" src="https://github.com/user-attachments/assets/877b0685-8d86-4f8b-b123-f3cc17d46fc7" />
-<img width="1241" alt="image" src="https://github.com/user-attachments/assets/09a92647-1781-4124-ba3f-1d6fb66f6974" />
-<img width="1241" alt="image" src="https://github.com/user-attachments/assets/a15017f4-f1f2-459e-b895-b3c14703635b" />
-<img width="1428" height="830" alt="image" src="https://github.com/user-attachments/assets/9f78c2e8-991c-4507-8ffb-72e61513c031" />
+* 🎨 **3D Experience & Animation**
+* ⚡ **Smooth Timeline Storytelling**
+* 🤖 **AI-driven project highlights**
+* 🌐 **Real-world deployment**
 
+---
 
+## ✨ Features
+
+* 🧭 Interactive 3D timeline (Work & Education)
+* 💼 Dynamic project showcase with GitHub links
+* 📄 Resume integration
+* ⚡ Smooth animations & transitions
+* 📱 Responsive design
+* 🚀 Live deployed on Vercel
+
+---
+
+## 🛠️ Tech Stack
+
+* ⚛️ React + Three.js (3D rendering)
+* 🎮 @react-three/fiber & drei
+* 💅 CSS / Modern UI
+* 🚀 Vercel (Deployment)
+* 🔧 Git & GitHub
+
+---
+
+## 📂 My Key Projects
+
+* 🤖 **AI Developer Roast Lab**
+  → AI-powered developer analysis & roasting system
+
+* 🏗️ **Migration Studio**
+  → Intelligent migration tool using LLM + MCP
+
+* 🎫 **Online Customer Ticket System**
+  → Full-stack support system
+
+* 📰 **AI AutoNews**
+  → Automated AI news pipeline
+
+---
+
+## 🎓 Work & Education Timeline
+
+* 📘 2024 — Started B.Tech CSE (Data Science)
+* 🏆 2025 — 2x Hackathon Winner
+* 🤖 2025 — Built Innovative AI Projects
+* 🎓 2025 — Pursuing 2nd Year
+* 🚀 2026 — Scaling advanced AI systems
+
+---
+
+## 📸 Preview
+
+<img width="800" alt="Preview 1" src="public/screenshots/preview1.png" />
+<img width="800" alt="Preview 2" src="public/screenshots/preview2.png" />
+<img width="800" alt="Preview 3" src="public/screenshots/preview3.png" />
+<img width="800" alt="Preview 4" src="public/screenshots/preview4.png" />
+
+---
+
+## ⚡ Getting Started
+
+Clone the project:
+
+```bash
+git clone https://github.com/prempareesh/CLOUD_PORTFOLIO.git
+cd CLOUD_PORTFOLIO
+npm install
+npm run dev
+```
+
+---
+
+## 📄 Resume
+
+📥 Download my resume: [Resume PDF](public/pareeshresume2.pdf)
+
+---
+
+## 🌐 Deployment
+
+This project is live on:
+
+👉 https://cloud-portfolio-pi.vercel.app
+
+---
+
+## 🤝 Connect With Me
+
+* 💼 LinkedIn: [Prem Pareesh](https://www.linkedin.com/in/prem-pareesh-331bbb346/)
+* 🧑💻 GitHub: [prempareesh](https://github.com/prempareesh)
+* 📧 Email: [preampareesh@gmail.com](mailto:preampareesh@gmail.com)
+
+---
+
+## ⭐ Show Your Support
+
+If you like this project:
+
+⭐ Star this repo
+🍴 Fork it
+📢 Share it
+
+---
+
+## 🔥 Future Improvements
+
+* AI chatbot integration
+* Advanced animations
+* Custom domain
+* Performance optimization
+
+---
+
+## 💡 Inspiration
+
+Built with passion to create a **next-generation developer portfolio** that stands out 🚀
