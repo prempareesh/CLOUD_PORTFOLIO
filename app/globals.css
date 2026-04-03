@@ -47,20 +47,11 @@ body {
 }
 
 .close {
-  position: absolute;
-  left: 32px;
-  top: 32px;
+  position: relative;
   width: 48px;
   height: 48px;
   opacity: 0.3;
   cursor: pointer;
-}
-
-@media screen and (max-width: 768px) {
-  .close {
-    margin-left: -24px;
-    margin-top: -16px;
-  }
 }
 
 .close:hover {
@@ -69,7 +60,7 @@ body {
 
 .close:before, .close:after {
   position: absolute;
-  left: 2rem;
+  left: 23px;
   content: ' ';
   height: 48px;
   width: 2px;
@@ -82,4 +73,37 @@ body {
 
 .close:after {
   transform: rotate(-45deg);
+}
+
+.bottom-icons {
+  position: fixed;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding-bottom: env(safe-area-inset-bottom);
+  z-index: 1000;
+  overflow: visible;
+}
+
+@media (max-width: 768px) {
+  .bottom-icons {
+    bottom: 10px;
+    gap: 16px;
+    transform: scale(0.9);
+  }
+}
+
+@media (max-width: 480px) {
+  .bottom-icons {
+    bottom: 8px;
+    gap: 12px;
+    transform: scale(0.8);
+  }
+}
+
+.icon {
+  padding: 10px;
 }

@@ -13,6 +13,7 @@ import Preloader from "./Preloader";
 import ProgressLoader from "./ProgressLoader";
 import { ScrollHint } from "./ScrollHint";
 import ThemeSwitcher from "./ThemeSwitcher";
+import BottomIcons from "./BottomIcons";
 // import {Perf} from "r3f-perf"
 
 const CanvasLoader = (props: { children: React.ReactNode }) => {
@@ -91,6 +92,7 @@ const CanvasLoader = (props: { children: React.ReactNode }) => {
       </div>
       <ThemeSwitcher />
       <ScrollHint />
+      <BottomIcons />
     </div>
   );
 };

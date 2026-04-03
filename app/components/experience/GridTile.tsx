@@ -69,12 +69,17 @@ const GridTile = (props: GridTileProps) => {
     document.body.style.cursor = 'auto';
     const div = document.createElement('div');
 
-    div.className = 'fixed close';
+    div.className = 'close icon';
     div.style.transform = 'rotateX(90deg)';
     div.onclick = () => exitPortal(true);
 
     if (!document.querySelector('.close')) {
-      document.body.appendChild(div);
+      const container = document.getElementById('bottom-icons-container');
+      if (container) {
+        container.prepend(div);
+      } else {
+        document.body.appendChild(div);
+      }
 
       gsap.fromTo(div, {
         scale: 0,
